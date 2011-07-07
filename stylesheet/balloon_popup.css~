@@ -1,0 +1,82 @@
+div.pointer{
+		position: absolute;
+		background-image: url(images/down_right.png);
+		width: 50px;
+		height: 32px;
+		top: -29px; 
+		left: 30px;
+	}
+	div.up_right{
+		background-image: url(images/up_right.png);
+	}
+	div.up_left{
+		background-image: url(images/up_left.png);
+	}
+	div.down_left{
+		background-image: url(images/down_left.png);
+	}
+	div.new_balloon_container{
+  		display: none;
+  		z-index: 2000;
+  		position: absolute;
+  		background-color: white;
+  	}
+  	div.top_left{
+		height: 11px;
+    	width: 9px;
+    	float: left;
+    	background: url(images/top_left.png);
+    	background-repeat: no-repeat;
+	}
+	div.top_border{
+		height: 9px;
+    	float: left;
+    	background: url(images/top_border.png) repeat-x;
+   }
+	div.top_right{
+		float: right;
+    	height: 11px;
+    	width: 23px;
+    	background: url(images/top_right.png);
+    	background-repeat: no-repeat;
+   }
+   div.middle_left{
+   	background: url(images/left_border.png) repeat-y;
+   	width: 4px;
+   	float: left;
+   }
+   div.middle_right{
+   	background: url(images/right_border.png) repeat-y;
+   	width: 17px;
+   	float: right;
+	}   
+	div.middle_content{
+		float: left;
+		margin-left: 5px;
+                min-width: 50px;
+	}
+	div.bottom_left{
+		height: 19px;
+    	width: 9px;
+    	float: left;
+    	background: url(images/bottom_left.png);
+    	background-repeat: no-repeat;
+	}
+	div.bottom_border{
+		height: 9px;
+    	float: left;
+    	background: url(images/bottom_border.png) repeat-x;
+    	margin-top: 9px;
+	}
+	div.bottom_right{
+		float: right;
+    	height: 19px;
+    	width: 23px;
+    	background: url(images/bottom_right.png);
+    	background-repeat: no-repeat;
+   }
+	div.clear{
+		clear: both;
+		height: 0px;
+		visibility: hidden;
+	}
