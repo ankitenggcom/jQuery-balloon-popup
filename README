@@ -1,0 +1,16 @@
+This plugin allows you to add ballon popup on your site leveraging the jquery features. Using this plugin is very simple.
+Include balloon_popup.css then add jQuery.js, balloon_popup.js in head of your web page.
+Add 'balloon' class to html element on which you want popup on mouseover.
+Add html attribute message whose value is the message that needs to be displayed in balloon popup. For ex:
+
+<div class='balloon' message='Test message'>Some conetent</div>
+
+After doing this you need to initialize ballon popup, that can be done using the following code:
+
+$(document).ready(fucntion(){
+	$('.balloon').ballon_popup();
+})
+
+That's all.
+
+Let me know your queries at ankit.varshney@gmail.com
